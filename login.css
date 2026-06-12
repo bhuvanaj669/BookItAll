@@ -1,0 +1,120 @@
+/* Auth Section */
+.auth-section {
+    padding: 80px 0;
+    min-height: calc(100vh - 220px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.auth-section .container {
+    width: 90%;
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+.auth-box {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(5, 22, 34, 0.15);
+    overflow: hidden;
+}
+
+/* Tabs */
+.auth-tabs {
+    display: flex;
+}
+
+.auth-tab {
+    flex: 1;
+    padding: 18px;
+    border: none;
+    background-color: #051622;
+    color: #DEB992;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.auth-tab.active {
+    background-color: #1BA098;
+    color: #051622;
+    font-weight: bold;
+}
+
+/* Forms */
+.auth-form {
+    display: none;
+    padding: 30px 35px;
+}
+
+.auth-form.active {
+    display: block;
+}
+
+.auth-form h2 {
+    text-align: center;
+    color: #051622;
+    margin-bottom: 25px;
+}
+
+.auth-form .form-group {
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form label {
+    margin-bottom: 6px;
+    color: #051622;
+    font-weight: bold;
+}
+
+.auth-form input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Lora', serif;
+}
+
+.auth-form input:focus {
+    outline: none;
+    border-color: #1BA098;
+}
+
+.auth-submit {
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+    background-color: #1BA098;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    display: inline-block;
+}
+
+.auth-submit:hover {
+    background-color: #051622;
+}
+
+.auth-switch {
+    text-align: center;
+    margin-top: 18px;
+    color: #333;
+}
+
+.auth-switch a {
+    color: #1BA098;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.auth-switch a:hover {
+    text-decoration: underline;
+}

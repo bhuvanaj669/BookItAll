@@ -1,0 +1,82 @@
+/* Offers Section */
+.offers-section {
+    padding: 60px 0;
+}
+
+.offers-section .container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.offers-section h2 {
+    font-size: 2.4em;
+    color: #051622;
+    margin-bottom: 10px;
+}
+
+.offers-intro {
+    color: #333;
+    margin-bottom: 40px;
+    font-size: 1.1em;
+}
+
+.offers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    text-align: left;
+}
+
+.offer-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px 25px;
+    box-shadow: 0 6px 18px rgba(5, 22, 34, 0.12);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.offer-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 26px rgba(5, 22, 34, 0.2);
+}
+
+.offer-icon {
+    font-size: 2.2em;
+    color: #1BA098;
+    margin-bottom: 15px;
+}
+
+.offer-card h3 {
+    color: #051622;
+    margin-bottom: 10px;
+}
+
+.offer-card p {
+    color: #333;
+    margin-bottom: 20px;
+    flex-grow: 1;
+}
+
+.offer-card .btn {
+    align-self: flex-start;
+    background-color: #1BA098;
+    color: #fff;
+    padding: 10px 22px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.offer-card .btn:hover {
+    background-color: #051622;
+}
+
+.offers-note {
+    margin-top: 40px;
+    color: #555;
+    font-size: 0.9em;
+}
